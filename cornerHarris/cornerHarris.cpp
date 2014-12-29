@@ -15,6 +15,11 @@ int main()
 	harris.drawOnImage(image, ptrs);
 	imshow("result", image);
 	waitKey(0);
+	harris.getCorners(ptrs, 0.01);
+	harris.drawOnImage(image, ptrs);
+	imshow("result", image);
+	waitKey(0);
+	system("pause");
 	system("pause");
 	return 0;
 }
