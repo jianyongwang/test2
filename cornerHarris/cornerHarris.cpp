@@ -15,6 +15,6 @@ int main()
 	harris.drawOnImage(image, ptrs);
 	imshow("result", image);
 	waitKey(0);
-	system("pause");
+	system("pau");
 	return 0;
 }
